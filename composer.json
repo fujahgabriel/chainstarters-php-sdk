@@ -1,0 +1,24 @@
+{
+    "name": "chainstarters/chainstarters-php-sdk",
+    "version": "0.0.1",
+    "description": "SDK for performing authentication queries using the Chainstarters API.",
+    "type": "library",
+    "license": "MIT",
+     "authors": [
+        {
+            "name": "Gabriel Ajenifuja",
+            "email": "gabrielfuja001@gmail.com",
+            "homepage": "https://github.com/fujahgabriel"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "webonyx/graphql-php": "^15.8",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chainstarters\\": "src/"
+        }
+    }
+}
